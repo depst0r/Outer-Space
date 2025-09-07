@@ -1,0 +1,10 @@
+@use '/src/sass/basic/mixins.scss'as *;
+@use '/src/sass/basic/variables.scss'as *;
+
+.link {
+    @include title;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}

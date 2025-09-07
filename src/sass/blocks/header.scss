@@ -1,0 +1,17 @@
+.header {
+    padding-top: 30px;
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10%;
+        padding: 0;
+    }
+
+    &__link {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+}

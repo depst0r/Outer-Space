@@ -1,18 +1,20 @@
+@use '/src/sass/basic/variables.scss'as*;
+
 @function container-padding($width) {
     @if $width <=320 {
-        @return 0 10px;
+        @return $screen-width-320;
     }
 
     @else if $width <=768 {
-        @return 0 25px;
+        @return $screen-width-768;
     }
 
     @else if $width <=1440 {
-        @return 0 55px;
+        @return $screen-width-1440;
     }
 
     @else {
-        @return 0 100px;
+        @return $screen-width-1920;
     }
 }
 
