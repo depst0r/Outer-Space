@@ -28,4 +28,30 @@ h5 {
 img {
     display: block;
     max-inline-size: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+}
+
+html {
+    font-family: "Creatball";
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: black;
+}
+
+section,
+header,
+footer {
+    background: url('/src/img/stars/stars\ 1.png')no-repeat center;
+}
+
+a {
+    text-decoration: none;
 }

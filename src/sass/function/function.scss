@@ -1,0 +1,33 @@
+@function container-padding($width) {
+    @if $width <=320 {
+        @return 0 10px;
+    }
+
+    @else if $width <=768 {
+        @return 0 25px;
+    }
+
+    @else if $width <=1440 {
+        @return 0 55px;
+    }
+
+    @else {
+        @return 0 100px;
+    }
+}
+
+.container {
+    padding: container-padding(320);
+
+    @media screen and (min-width: 768px) {
+        padding: container-padding(768);
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: container-padding(1440);
+    }
+
+    @media screen and (min-width:1920px) {
+        padding: container-padding(1920);
+    }
+}
