@@ -1,0 +1,8 @@
+//Basic
+@use '/src/sass/basic/mixins.scss';
+@use '/src/sass/basic/variables.scss';
+@use '/src/sass/basic/base.scss';
+
+//Blocks
+@use '/src/sass/blocks/header.scss';
+@use '/src/sass/blocks/footer.scss';
